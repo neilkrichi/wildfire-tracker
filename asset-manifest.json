@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wildfire-tracker/static/css/main.f7440d37.chunk.css",
-    "main.js": "/wildfire-tracker/static/js/main.2d419a6c.chunk.js",
-    "main.js.map": "/wildfire-tracker/static/js/main.2d419a6c.chunk.js.map",
+    "main.js": "/wildfire-tracker/static/js/main.046c06cf.chunk.js",
+    "main.js.map": "/wildfire-tracker/static/js/main.046c06cf.chunk.js.map",
     "runtime-main.js": "/wildfire-tracker/static/js/runtime-main.f9113149.js",
     "runtime-main.js.map": "/wildfire-tracker/static/js/runtime-main.f9113149.js.map",
     "static/js/2.d9d03341.chunk.js": "/wildfire-tracker/static/js/2.d9d03341.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f9113149.js",
     "static/js/2.d9d03341.chunk.js",
     "static/css/main.f7440d37.chunk.css",
-    "static/js/main.2d419a6c.chunk.js"
+    "static/js/main.046c06cf.chunk.js"
   ]
 }
