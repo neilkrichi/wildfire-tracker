@@ -28,9 +28,20 @@ body {
   position: relative;
 }
 
+.close-icon {
+  float: right;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 .location-icon {
   font-size: 2rem;
   color: red;
+}
+
+.volcano-icon {
+  font-size: 2rem;
+  color: orange;
 }
 
 .loader {
