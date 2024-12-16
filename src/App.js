@@ -13,9 +13,13 @@ function App() {
     const fetchEvents = async () => {
       setLoading(true);
 
-      const res = await fetch(`https://eonet.gsfc.nasa.gov/api/v2.1/categories/8`);
+      const today = new Date().toISOString().split('T')[0];
+      const lastWeek = new Date(new Date().getTime() - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+      const lastMonth = new Date(new Date().getTime() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
 
-      const { events } = await res.json()
+      const res = await fetch(`https://eonet.gsfc.nasa.gov/api/v3/events?start=${lastMonth}&end=${today}&category=wildfires`);
+
+      const { events } = await res.json();
 
       setEventData(events)
       setLoading(false)
